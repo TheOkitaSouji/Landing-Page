@@ -4,6 +4,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -25,6 +26,7 @@ header {
     color: white;
     background-color: #1F2937;
     padding: 8px 20%;
+    height: 64px;
 }
 
 ul {
@@ -36,13 +38,22 @@ ul {
 }
 
 .intro {
-    color: white;
+    color: #E5E7EB;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px 20%;
-    font-size: 24px;
+    font-size: 18px;
+    height: 400px;
+    padding: 0 20%
+}
+
+.intro h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    max-width: 400px;
 }
 
 .intro button {
@@ -59,22 +70,48 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 500px;
+    padding: 0 30%;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .info-content {
     display: flex;
     gap: 32px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.info img {
+    height: 200px;
 }
 
 .quote {
+    height: 400px;
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    flex-wrap: wrap;
+    padding: 0 30%;
 }
 
 .name {
     align-self: flex-end;
+    text-align: end;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .sign {
@@ -101,10 +138,15 @@ ul {
     background-color: #3882F6;
     border-radius: 12px;
     border: none;
-    padding: 8px 16px;
+    padding: 12px 24px;
     font-size: 16px;
     font-weight: 900;
     border: 1px solid white;
+}
+
+#call {
+    font-weight: 900;
+    font-size: 20px;
 }
 
 footer {
@@ -113,5 +155,7 @@ footer {
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
-    min-height: 64px;
+    height: 100px;
 }
+
+/* Change quote, try to remove gaps between some elements, add links, change placeholder image */
